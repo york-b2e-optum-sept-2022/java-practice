@@ -13,13 +13,13 @@ public class DemoApplication {
         }
      */
     public static void main(String[] args) {
-//        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
 
-        for (int i = 0; i < 50; i++) {
-            System.out.println(
-                    FizzBuzz.staticPlay(i)
-            );
-        }
+//        for (int i = 0; i < 50; i++) {
+//            System.out.println(
+//                    FizzBuzz.staticPlay(i)
+//            );
+//        }
 
     }
 
